@@ -1,0 +1,22 @@
+# Data directory (Notebook auto-downloads Parquet and CSV files on the fly)
+data/*.parquet
+data/*.csv
+data/*.json
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS files
+Thumbs.db
+.DS_Store
